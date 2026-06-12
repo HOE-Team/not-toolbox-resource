@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/HOE-Team/not-toolbox-resource/refs/heads/main
 - DNF:  
   `/linux/packages-linux-dnf.json`
 - Pacman:  
-  `/linux/package-linux-pacman.json`
+  `/linux/packages-linux-pacman.json`
 - APT:  
   `/linux/packages-linux-apt.json`
 - Nix: 暂无
@@ -64,3 +64,7 @@ cmd = f"sudo pacman -S --noconfirm {pkg_name}"
 # 执行
 subprocess.run(cmd.split())
 ```
+
+## 四、许可协议
+本仓库基于MIT协议开放，你可以在保留原作者署名的前提下，自由使用本仓库内的所有JSON文件，包括但不限于复制、修改、合并、发布、分发、再许可及商业用途。  
+版权所有 ©2026 HOE Team.保留所有权利。
