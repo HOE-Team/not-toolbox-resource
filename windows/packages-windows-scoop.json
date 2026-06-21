@@ -122,9 +122,9 @@
   {
     "name": "Rufus",
     "description": "USB镜像烧录工具",
-    "url": "https://github.com/slacka/WoeUSB",
+    "url": "https://rufus.ie",
     "category": "其它工具",
-    "licenseUrl": "https://github.com/slacka/WoeUSB/blob/master/COPYING",
+    "licenseUrl": "https://github.com/pbatard/rufus/blob/master/LICENSE.txt",
     "licenseType": "GPL-3.0",
     "bucket": "extras",
     "scoopName": "rufus"
