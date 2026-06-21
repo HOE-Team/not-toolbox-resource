@@ -1,12 +1,21 @@
 [
   {
-    "name": "HWiNFO",
-    "description": "硬件信息实时监控",
-    "url": "https://www.hwinfo.com/",
+    "name": "neofetch",
+    "description": "软硬件信息显示工具",
+    "url": "https://github.com/dylanaraps/neofetch",
     "category": "系统信息与硬件监控工具",
-    "isProprietarySoftware": true,
-    "eulaUrl": "https://www.hwinfo.com/forum/threads/hwinfo-license-agreement.123/",
-    "aptName": "hwinfo"
+    "licenseUrl": "https://github.com/dylanaraps/neofetch/blob/master/LICENSE.md",
+    "licenseType": "MIT",
+    "aptName": "neofetch"
+  },
+  {
+    "name": "fastfetch",
+    "description": "一款类neofetch软硬件信息显示工具(Debian 13+/No Ubuntu Support)",
+    "url": "https://github.com/fastfetch-cli/fastfetch",
+    "category": "系统信息与硬件监控工具",
+    "licenseUrl": "https://github.com/fastfetch-cli/fastfetch/blob/dev/LICENSE",
+    "licenseType": "MIT",
+    "pacmanName": "fastfetch"
   },
   {
     "name": "lshw",
@@ -148,7 +157,7 @@
     "description": "代码编辑器",
     "url": "https://code.visualstudio.com/",
     "category": "开发人员工具",
-    "licenseUrl": "https://www.nano-editor.org/dist/latest/COPYING",
+    "licenseUrl": "https://github.com/code-oss-dev/code/blob/main/LICENSE.txt",
     "licenseType": "MIT",
     "aptName": "code"
   },

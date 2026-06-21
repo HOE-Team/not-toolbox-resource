@@ -1,12 +1,12 @@
 [
   {
-    "name": "HWiNFO",
-    "description": "硬件信息实时监控",
-    "url": "https://www.hwinfo.com/",
+    "name": "fastfetch",
+    "description": "一款类neofetch软硬件信息显示工具",
+    "url": "https://github.com/fastfetch-cli/fastfetch",
     "category": "系统信息与硬件监控工具",
-    "isProprietarySoftware": true,
-    "eulaUrl": "https://www.hwinfo.com/forum/threads/hwinfo-license-agreement.123/",
-    "pacmanName": "hwinfo"
+    "licenseUrl": "https://github.com/fastfetch-cli/fastfetch/blob/dev/LICENSE",
+    "licenseType": "MIT",
+    "pacmanName": "fastfetch"
   },
   {
     "name": "lshw",
@@ -180,13 +180,13 @@
     "pacmanName": "nano"
   },
   {
-    "name": "vscode",
-    "description": "代码编辑器",
+    "name": "Code-OSS",
+    "description": "Visual Studio Code 的开源(OSS)构建",
     "url": "https://code.visualstudio.com/",
     "category": "开发人员工具",
-    "isProprietarySoftware": true,
-    "eulaUrl": "https://code.visualstudio.com/license",
-    "pacmanName": "visual-studio-code-bin"
+    "licenseUrl": "https://github.com/code-oss-dev/code/blob/main/LICENSE.txt",
+    "licenseType": "MIT",
+    "pacmanName": "code"
   },
   {
     "name": "woeusb",
