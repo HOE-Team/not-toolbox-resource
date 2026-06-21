@@ -27,22 +27,58 @@
     "pacmanName": "dmidecode"
   },
   {
-    "name": "nvidia-driver",
-    "description": "NVIDIA显卡驱动",
-    "url": "https://www.nvidia.com/Download/index.aspx",
+    "name": "nvidia-open",
+    "description": "NVIDIA开源显卡驱动(适用于linux内核)",
+    "url": "https://github.com/NVIDIA/open-gpu-kernel-modules",
     "category": "驱动程序管理工具",
-    "isProprietarySoftware": true,
-    "eulaUrl": "https://www.nvidia.com/en-us/drivers/geforce-license/",
-    "pacmanName": "nvidia"
+    "licenseUrl": "https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/COPYING",
+    "licenseType":"MIT/GPLv3双重许可",
+    "pacmanName": "nvidia-open"
   },
   {
-    "name": "mesa-vulkan-drivers",
-    "description": "开源显卡驱动",
+    "name": "nvidia-open-dkms",
+    "description": "NVIDIA开源显卡驱动(适用于任何内核)",
+    "url": "https://github.com/NVIDIA/open-gpu-kernel-modules",
+    "category": "驱动程序管理工具",
+    "licenseUrl": "https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/COPYING",
+    "licenseType":"MIT/GPLv3双重许可",
+    "pacmanName": "nvidia-open-dkms"
+  },
+  {
+    "name": "nvidia-open-lts",
+    "description": "NVIDIA开源显卡驱动(适用于linux-lts内核)",
+    "url": "https://github.com/NVIDIA/open-gpu-kernel-modules",
+    "category": "驱动程序管理工具",
+    "licenseUrl": "https://github.com/NVIDIA/open-gpu-kernel-modules/blob/main/COPYING",
+    "licenseType":"MIT/GPLv3双重许可",
+    "pacmanName": "nvidia-open-lts"
+  },
+  {
+    "name": "mesa-vulkan-drivers(ATI/AMD Readon)",
+    "description": "适用于ATI/AMD Radeon显卡的开源显卡驱动",
     "url": "https://www.mesa3d.org/",
     "category": "驱动程序管理工具",
     "licenseUrl": "https://www.mesa3d.org/license.html",
     "licenseType": "MIT",
     "pacmanName": "vulkan-radeon"
+  },
+  {
+    "name": "mesa-vulkan-drivers(Intel GPUs)",
+    "description": "适用于Intel HD/UHD/Iris/IrisXe(Max)/ARC显卡的开源显卡驱动",
+    "url": "https://www.mesa3d.org/",
+    "category": "驱动程序管理工具",
+    "licenseUrl": "https://www.mesa3d.org/license.html",
+    "licenseType": "MIT",
+    "pacmanName": "vulkan-intel"
+  },
+  {
+    "name": "mesa-vulkan-drivers(VirtIO)",
+    "description": "适用于VirtIO图形实现的开源图形驱动",
+    "url": "https://www.mesa3d.org/",
+    "category": "驱动程序管理工具",
+    "licenseUrl": "https://www.mesa3d.org/license.html",
+    "licenseType": "MIT",
+    "pacmanName": "vulkan-virtio"
   },
   {
     "name": "VLC",

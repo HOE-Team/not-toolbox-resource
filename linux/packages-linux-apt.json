@@ -27,16 +27,16 @@
     "aptName": "dmidecode"
   },
   {
-    "name": "nvidia-driver",
-    "description": "NVIDIA显卡驱动",
-    "url": "https://www.nvidia.com/Download/index.aspx",
+    "name": "nvidia-driver-assistant",
+    "description": "NVIDIA显卡驱动安装助手",
+    "url": "https://github.com/ric96/nvidia-driver-assistant",
     "category": "驱动程序管理工具",
     "isProprietarySoftware": true,
-    "eulaUrl": "https://www.nvidia.com/en-us/drivers/geforce-license/",
-    "aptName": "nvidia-driver-535"
+    "eulaUrl": "https://www.nvidia.com/en-us/about-nvidia/eula-agreement/",
+    "aptName": "nvidia-driver-assistant"
   },
   {
-    "name": "mesa-vulkan-drivers",
+    "name": "mesa-vulkan-drivers(AIO)",
     "description": "开源显卡驱动",
     "url": "https://www.mesa3d.org/",
     "category": "驱动程序管理工具",
@@ -148,8 +148,8 @@
     "description": "代码编辑器",
     "url": "https://code.visualstudio.com/",
     "category": "开发人员工具",
-    "isProprietarySoftware": true,
-    "eulaUrl": "https://code.visualstudio.com/license",
+    "licenseUrl": "https://www.nano-editor.org/dist/latest/COPYING",
+    "licenseType": "MIT",
     "aptName": "code"
   },
   {
